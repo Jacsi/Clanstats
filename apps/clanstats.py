@@ -18,7 +18,7 @@ def app():
     st.title('Clanstats')
 
     st.write('This is a small prototype to display clan statistics (XP, Gold, Gems) of three member.  Feel free to click around.')
-    st.write("This sample data set contains data in the period from 05/20/2021 to 06/16/2021")
+    st.write("This sample data set contains data in the period from 05/20/2021 to 07/21/2021")
     df = get_data()
 
     data = df
