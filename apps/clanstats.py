@@ -36,7 +36,7 @@ def app():
     dffilter = df[(df['Timestamp'] > startdate) & (df['Timestamp'] < enddate)]
     
     datagrouped = dffilter.groupby(['User']).sum()
-    st.write("### the group by", datagrouped)
+    st.write("The clan statistics table", datagrouped)
     
     chartdata = dffilter.groupby(['User', 'Timestamp']).sum() \
   .groupby(level=0).cumsum().reset_index()
