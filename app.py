@@ -2,7 +2,7 @@
 """
 Created on Mon Dec 13 00:48:34 2021
 
-@author: JSiet
+@author: Jacsi
 """
 
 import streamlit as st
